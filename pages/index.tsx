@@ -1,14 +1,9 @@
 import React from 'react';
 
-interface Props {
-}
-
-App.defaultProps = {};
-
-export default function App({}: Props) {
+export default function App() {
     return (
         <>
-            App 
+            App
         </>
     )
 };

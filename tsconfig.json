@@ -22,17 +22,20 @@
     "incremental": true
   },
   "include": [
-    "src"
+    "src", "src/components"
   ],
   "baseUrl": ".",
   "paths": {
-    "@components/*": [
+    "~/src/*": [
+      "src/*"
+    ],
+    "~/components/*": [
       "src/components/*"
     ],
-    "@pages/*": [
+    "~pages/*": [
       "pages/*"
     ],
-    "@assets/*": [
+    "~assets/*": [
       "src/assets/*"
     ]
   },
